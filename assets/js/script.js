@@ -36,3 +36,26 @@ function scrollHeader(){
     if(this.scrollY >= 50) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)
+
+// MixitUp Filter Products
+let mixerProducts = mixitup('.products__content', {
+    selectors: {
+        target: '.products__card'
+    },
+    animation: {
+        duration: 300
+    }
+});
+
+// Default Filter Products
+mixerProducts.filter('.kaftan')
+
+// Link Active Products
+const linkProducts = document.querySelectorAll('.products__item')
+
+function activeProducts() {
+    linkProducts.forEach(l=> l.classList.remove('active-product'))
+    this.classList.add('active-product')
+}
+
+linkProducts.forEach(l=> l.addEventListener('click', activeProducts))
