@@ -27,7 +27,7 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">Home</a>
+                        <a href="#home" class="nav__link active-link">Home</a>
                     </li>
 
                     <li class="nav__item">
@@ -35,7 +35,7 @@
                     </li>
 
                     <li class="nav__item">
-                        <a href="#contact" class="nav__link">Contact Us</a>
+                        <a href="#premium" class="nav__link">Premium</a>
                     </li>
 
                     <li class="nav__item">
@@ -86,7 +86,7 @@
                         </div>
                     </div>
 
-                    <a href="#specialty">
+                    <a href="#products">
                         <img src="assets/img/scroll.png" alt="" class="home__scroll">
                     </a>
                 </div>
@@ -96,7 +96,7 @@
         </section>
 
         <!-- Specialty -->
-        <div class="specialty section" id="products">
+        <div class="specialty section container" id="products">
             <div class="specialty__container">
                 <div class="specialty__box">
                     <h2 class="section__title">
@@ -109,16 +109,7 @@
                 </div>
 
                 <div class="specialty__category">
-                    <div class="specialty__group">
-                        <img src="assets/img/specialty1.png" alt="" class="specialty__img">
-
-                        <h3 class="specialty__title">Dress</h3>
-                        <p class="specialty__description">
-                            We select the best fabric, for a pleasant feel.
-                        </p>
-                    </div>
-
-                    <div class="specialty__group">
+                    <div class="specialty__group specialty__line">
                         <img src="assets/img/specialty1.png" alt="" class="specialty__img">
 
                         <h3 class="specialty__title">Kaftan</h3>
@@ -127,10 +118,19 @@
                         </p>
                     </div>
 
+                    <div class="specialty__group specialty__line">
+                        <img src="assets/img/specialty1.png" alt="" class="specialty__img">
+
+                        <h3 class="specialty__title">Tuxedo</h3>
+                        <p class="specialty__description">
+                            We select the best fabric, for a pleasant feel.
+                        </p>
+                    </div>
+
                     <div class="specialty__group">
                         <img src="assets/img/specialty1.png" alt="" class="specialty__img">
 
-                        <h3 class="specialty__title">Suit</h3>
+                        <h3 class="specialty__title">Gown</h3>
                         <p class="specialty__description">
                             We select the best fabric, for a pleasant feel.
                         </p>
@@ -138,7 +138,394 @@
                 </div>
             </div>
         </div>
+
+        <!-- Products -->
+        <section class="products section" id="products">
+            <div class="products__container container">
+                <h2 class="section__title">
+                    Choose our best and finest products
+                </h2>
+
+                <ul class="products__filters">
+                    <li class="products__item products__line active-product" data-filter=".kaftan">
+                        <h3 class="products__title">Kaftan</h3>
+                        <span class="products__stock">5+ Products</span>
+                    </li>
+
+                    <li class="products__item products__line" data-filter=".tuxedo">
+                        <h3 class="products__title">Tuxedo</h3>
+                        <span class="products__stock">3 Products</span>
+                    </li>
+
+                    <li class="products__item" data-filter=".gown">
+                        <h3 class="products__title">Gown</h3>
+                        <span class="products__stock">Out of Stock</span>
+                    </li>
+                </ul>
+
+                <div class="products__content grid">
+                    <!-- Kaftan -->
+                    <!-- Kaftan 1 -->
+                    <article class="products__card kaftan">
+                        <div class="products__shape">
+                            <img src="assets/img/kaftan1.jpg" alt="" class="products__img">
+                        </div>
+
+                        <div class="products__data">
+                            <h2 class="products__price">500$</h2>
+                            <h3 class="products__name">Kaftan 1</h3>
+
+                            <button class="button products__button">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Kaftan 2 -->
+                    <article class="products__card kaftan">
+                        <div class="products__shape">
+                            <img src="assets/img/kaftan2.jpg" alt="" class="products__img">
+                        </div>
+
+                        <div class="products__data">
+                            <h2 class="products__price">500$</h2>
+                            <h3 class="products__name">Kaftan 2</h3>
+
+                            <button class="button products__button">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Kaftan 3 -->
+                    <article class="products__card kaftan">
+                        <div class="products__shape">
+                            <img src="assets/img/kaftan3.jpg" alt="" class="products__img">
+                        </div>
+
+                        <div class="products__data">
+                            <h2 class="products__price">500$</h2>
+                            <h3 class="products__name">Kaftan 3</h3>
+
+                            <button class="button products__button">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Tuxedo -->
+                    <!-- Tuxedo 1 -->
+                    <article class="products__card tuxedo">
+                        <div class="products__shape">
+                            <img src="assets/img/tuxedo1.jpg" alt="" class="products__img">
+                        </div>
+
+                        <div class="products__data">
+                            <h2 class="products__price">1000$</h2>
+                            <h3 class="products__name">Tuxedo 1</h3>
+
+                            <button class="button products__button">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Tuxedo 2 -->
+                    <article class="products__card tuxedo">
+                        <div class="products__shape">
+                            <img src="assets/img/tuxedo2.jpg" alt="" class="products__img">
+                        </div>
+
+                        <div class="products__data">
+                            <h2 class="products__price">1000$</h2>
+                            <h3 class="products__name">Tuxedo 2</h3>
+
+                            <button class="button products__button">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Tuxedo 3 -->
+                    <article class="products__card tuxedo">
+                        <div class="products__shape">
+                            <img src="assets/img/tuxedo3.jpg" alt="" class="products__img">
+                        </div>
+
+                        <div class="products__data">
+                            <h2 class="products__price">1000$</h2>
+                            <h3 class="products__name">Tuxedo 3</h3>
+
+                            <button class="button products__button">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Tuxedo 4 -->
+                    <article class="products__card tuxedo">
+                        <div class="products__shape">
+                            <img src="assets/img/tuxedo4.jpg" alt="" class="products__img">
+                        </div>
+
+                        <div class="products__data">
+                            <h2 class="products__price">1000$</h2>
+                            <h3 class="products__name">Tuxedo 4</h3>
+
+                            <button class="button products__button">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Gown -->
+                    <!-- Gown 1 -->
+                    <article class="products__card gown">
+                        <div class="products__shape">
+                            <img src="assets/img/gown1.jpg" alt="" class="products__img">
+                        </div>
+
+                        <div class="products__data">
+                            <h2 class="products__price">200$</h2>
+                            <h3 class="products__name">Gown 1</h3>
+
+                            <button class="button products__button">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Gown 2 -->
+                    <article class="products__card gown">
+                        <div class="products__shape">
+                            <img src="assets/img/gown2.jpg" alt="" class="products__img">
+                        </div>
+
+                        <div class="products__data">
+                            <h2 class="products__price">200$</h2>
+                            <h3 class="products__name">Gown 2</h3>
+
+                            <button class="button products__button">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Gown 3 -->
+                    <article class="products__card gown">
+                        <div class="products__shape">
+                            <img src="assets/img/gown3.jpg" alt="" class="products__img">
+                        </div>
+
+                        <div class="products__data">
+                            <h2 class="products__price">200$</h2>
+                            <h3 class="products__name">Gown 3</h3>
+
+                            <button class="button products__button">
+                                <i class='bx bx-shopping-bag' ></i>
+                            </button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quality -->
+        <section class="quality section" id="premium">
+            <div class="quality__container container">
+                <h2 class="section__title">
+                    We offer a premium and better quality preparation just for you!
+                </h2>
+
+                <div class="quality__content grid">
+                    <div class="quality__images">
+                        <img src="assets/img/quality1.jpg" alt="" class="quality__img-big">
+                        <img src="assets/img/quality2.jpg" alt="" class="quality__img-small">
+                    </div>
+                </div>
+
+                <div class="quality__data">
+                    <h1 class="quality__title">Premium</h1>
+                    <h2 class="quality__price">Cool Deal</h2>
+                    <span class="quality__special">We've got you</span>
+                    <p>
+                        "What you wear is how you present yourself to the world, especially today, 
+                        when human contacts are so quick. Fashion is instant language." Which is why
+                        we are delighted to offer you quality service at low costs.
+                    </p>
+
+                    <div class="quality__buttons">
+                        <button class="button">
+                            Buy Now
+                        </button>
+
+                        <a href="#" class="quality__button">
+                            See More
+                            <i class='bx bxs-right-arrow'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Logos -->
+        <section class="logo section">
+            <div class="logo__container container grid">
+                <img src="assets/img/logo1.jpg" alt="" class="logo__img">
+                <img src="assets/img/logo2.jpg" alt="" class="logo__img">
+                <img src="assets/img/logo3.jpg" alt="" class="logo__img">
+                <img src="assets/img/logo4.jpg" alt="" class="logo__img">
+            </div>
+        </section>
+
+        <!-- Blog -->
+        <section class="blog section" id="blog">
+            <div class="blog__container container">
+                <h2 class="section__title">
+                    Our Blogs Apparels with trending topic for this week.
+                </h2>
+
+                <div class="blog__content grid">
+                    <!-- Blog 1 -->
+                    <aticle class="blog__card">
+                        <div class="blog__image">
+                            <img src="assets/img/blog1.jpg" alt="" class="blog__img">
+                            <a href="#" class="blog__button">
+                                <i class='bx bxs-right-arrow'></i>
+                            </a>
+                        </div>
+
+                        <div class="blog__data">
+                            <h2 class="blog__title">
+                                Style Recommendations and Consultation
+                            </h2>
+                            <p class="blog__description">
+                                This blog about styles will help you a lot in choosing a style 
+                                for your desired outfits.
+                            </p>
+
+                            <div class="blog__footer">
+                                <div class="blog__reaction">
+                                    <i class='bx bx-comment' ></i>
+                                    <span>100</span>
+                                </div>
+
+                                <div class="blog__reaction">
+                                    <i class='bx bx-show' ></i>
+                                    <span>100K</span>
+                                </div>
+                            </div>
+                        </div>
+                    </aticle>
+
+                    <!-- Blog 2 -->
+                    <aticle class="blog__card">
+                        <div class="blog__image">
+                            <img src="assets/img/blog2.jpg" alt="" class="blog__img">
+                            <a href="#" class="blog__button">
+                                <i class='bx bxs-right-arrow'></i>
+                            </a>
+                        </div>
+
+                        <div class="blog__data">
+                            <h2 class="blog__title">
+                                Highlight of the Week
+                            </h2>
+                            <p class="blog__description">
+                                This blog features a different client each week.
+                            </p>
+
+                            <div class="blog__footer">
+                                <div class="blog__reaction">
+                                    <i class='bx bx-comment'></i>
+                                    <span>555</span>
+                                </div>
+
+                                <div class="blog__reaction">
+                                    <i class='bx bx-show' ></i>
+                                    <span>150K</span>
+                                </div>
+                            </div>
+                        </div>
+                    </aticle>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">Derji Klodin</h1>
+
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <p class="footer__description">
+                            Subscribe to our newsletter
+                        </p>
+
+                        <div class="footer__newsletter">
+                            <input type="email" placeholder="Your email address" class="footer__input">
+                            <button class="footer__button">
+                                <i class='bx bxs-right-arrow'></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="footer__data">
+                        <h2 class="footer__subtitle">Address</h2>
+                        <p class="footer__information">
+                            Airport By-pass Road. <br>
+                            Accra, Greater Accra, Ghana
+                            <img src="assets/img/ghana.png" alt="" class="footer__flag">
+                        </p>
+                    </div>
+
+                    <div class="footer__data">
+                        <h2 class="footer__subtitle">Contact</h2>
+                        <p class="footer__information">
+                            +233 (0) 594276198 <br>
+                            julikarto@gmail.com
+                        </p>
+                    </div>
+
+                    <div class="footer__data">
+                        <h2 class="footer__subtitle">Office</h2>
+                        <p class="footer__information">
+                            Monday - Friday <br>
+                            9AM - 10PM
+                        </p>
+                    </div>
+                </div>
+
+                <div class="footer__group">
+                    <ul class="footer__social">
+                        <a href="" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+
+                        <a href="https://instagram.com/derji_klodin?utm_medium=copy_link" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+
+                        <a href="" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-youtube'></i>
+                        </a>
+                    </ul>
+
+                    <span class="footer__copy">
+                        &#169; Derji Group of Companies. All rights reserved.
+                    </span>
+                </div>
+            </div>
+        </footer>
     </main>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bxs-up-arrow'></i>
+    </a>
+
+    <!-- MixItUp Filter -->
+    <script src="assets/js/mixitup.min.js"></script>
     
     <script src="assets/js/script.js"></script>
 </body>
