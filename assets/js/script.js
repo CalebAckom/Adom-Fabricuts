@@ -1,3 +1,12 @@
+// SPLASH SCREEN
+onload = () => {
+    const load = document.getElementById('splash')
+
+    setTimeout(() => {
+        load.style.display = 'none'
+    }, 3000)
+}
+
 // SHOW MENU
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
